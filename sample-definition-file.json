@@ -1,0 +1,30 @@
+{
+  "spaceId": "space_jam",
+  "indexes":[
+      {
+        "name": "demo_index",
+        "tags": ["apictl"],
+        "index_pattern": {
+          "title": "hello"
+        },
+        "consumer": "eks"    
+      },
+      {
+        "name": "demo_index_2",
+        "tags": [],
+        "index_pattern": {
+          "title": "world"
+       }     
+      }
+  ],
+  "connectors": [
+    {
+      "name": "demo_connector",
+      "config": {
+        "hasAuth": false,
+        "headers": {}
+      },
+      "type": "consumer"
+    }
+  ]
+}
