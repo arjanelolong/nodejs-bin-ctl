@@ -1,6 +1,7 @@
 # Description
 
-Create binary that will auto apply your json data to any API. Works similar to kubectl.
+Create binary that will auto apply your json data to any API. 
+Applying will automatically add, update and delete entries.
 
 # Notes
 
